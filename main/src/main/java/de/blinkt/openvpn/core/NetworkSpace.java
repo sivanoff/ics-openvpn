@@ -19,8 +19,7 @@ import java.util.PriorityQueue;
 import java.util.TreeSet;
 import java.util.Vector;
 
-import de.blinkt.openvpn.BuildConfig;
-
+import ru.i9x.notails.BuildConfig;
 public class NetworkSpace {
 
     static class ipAddress implements Comparable<ipAddress> {

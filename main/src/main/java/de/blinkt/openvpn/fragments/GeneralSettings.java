@@ -25,8 +25,7 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 
-import de.blinkt.openvpn.BuildConfig;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.BuildConfig;import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.api.ExternalAppDatabase;
 import de.blinkt.openvpn.core.ProfileManager;

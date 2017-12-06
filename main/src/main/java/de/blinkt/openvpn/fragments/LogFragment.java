@@ -53,7 +53,7 @@ import java.util.Locale;
 import java.util.Vector;
 
 import de.blinkt.openvpn.LaunchVPN;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.activities.DisconnectVPN;
 import de.blinkt.openvpn.activities.MainActivity;

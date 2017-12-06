@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Vector;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.ProfileManager;
 

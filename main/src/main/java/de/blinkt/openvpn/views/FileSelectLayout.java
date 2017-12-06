@@ -17,7 +17,7 @@ import android.widget.TextView;
 
 import java.io.IOException;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.activities.FileSelect;
 import de.blinkt.openvpn.core.VpnStatus;

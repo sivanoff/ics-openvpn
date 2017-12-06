@@ -24,7 +24,7 @@ import android.widget.Switch;
 
 import java.util.Arrays;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.Connection;
 

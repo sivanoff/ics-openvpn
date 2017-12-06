@@ -19,7 +19,7 @@ import android.support.v4n.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.fragments.AboutFragment;
 import de.blinkt.openvpn.fragments.FaqFragment;
 import de.blinkt.openvpn.fragments.GeneralSettings;

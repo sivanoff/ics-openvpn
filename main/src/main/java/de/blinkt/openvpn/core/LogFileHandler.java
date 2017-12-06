@@ -22,7 +22,7 @@ import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 import java.util.Locale;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 
 /**
  * Created by arne on 23.01.16.

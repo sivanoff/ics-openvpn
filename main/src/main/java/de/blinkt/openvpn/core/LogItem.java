@@ -27,7 +27,7 @@ import java.util.FormatFlagsConversionMismatchException;
 import java.util.Locale;
 import java.util.UnknownFormatConversionException;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 
 /**
  * Created by arne on 24.04.16.

@@ -29,7 +29,7 @@ import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 
 
 public class ConfirmDialog extends Activity implements

@@ -44,7 +44,7 @@ import java.util.List;
 import java.util.TreeSet;
 
 import de.blinkt.openvpn.LaunchVPN;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.activities.ConfigConverter;
 import de.blinkt.openvpn.activities.DisconnectVPN;

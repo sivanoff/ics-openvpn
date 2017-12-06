@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import java.util.Locale;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 
 public class Settings_Obscure extends OpenVpnPreferencesFragment implements OnPreferenceChangeListener {

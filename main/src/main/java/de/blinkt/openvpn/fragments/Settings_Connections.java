@@ -20,7 +20,7 @@ import android.widget.Checkable;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 
 public class Settings_Connections extends Settings_Fragment implements View.OnClickListener {
     private ConnectionsAdapter mConnectionsAdapter;

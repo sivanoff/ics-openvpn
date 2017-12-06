@@ -19,7 +19,7 @@ import android.preference.SwitchPreference;
 import android.text.TextUtils;
 import android.util.Pair;
 import de.blinkt.openvpn.activities.FileSelect;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.core.VpnStatus;
 import de.blinkt.openvpn.views.RemoteCNPreference;
 import de.blinkt.openvpn.VpnProfile;

@@ -16,7 +16,7 @@ import android.os.IBinder;
 import android.os.RemoteException;
 
 import de.blinkt.openvpn.LaunchVPN;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.core.IOpenVPNServiceInternal;
 import de.blinkt.openvpn.core.OpenVPNService;
 import de.blinkt.openvpn.core.ProfileManager;

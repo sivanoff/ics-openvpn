@@ -30,8 +30,7 @@ import java.util.LinkedList;
 import java.util.Locale;
 import java.util.Vector;
 
-import de.blinkt.openvpn.BuildConfig;
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.BuildConfig;import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 
 public class OpenVpnManagementThread implements Runnable, OpenVPNManagement {

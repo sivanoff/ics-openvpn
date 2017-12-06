@@ -19,7 +19,7 @@ import org.acra.ReportingInteractionMode;
 import org.acra.annotation.ReportsCrashes;
 */
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 
 public class ICSOpenVPNApplication extends Application {
     private StatusListener mStatus;

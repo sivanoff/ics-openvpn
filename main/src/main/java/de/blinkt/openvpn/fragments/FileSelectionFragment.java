@@ -30,7 +30,7 @@ import java.util.Locale;
 import java.util.TreeMap;
 import java.util.Vector;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.activities.FileSelect;
 
 public class FileSelectionFragment extends ListFragment {

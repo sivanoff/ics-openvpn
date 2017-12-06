@@ -43,6 +43,8 @@ import de.blinkt.openvpn.core.ProfileManager;
 import de.blinkt.openvpn.core.VPNLaunchHelper;
 import de.blinkt.openvpn.core.VpnStatus;
 
+import ru.i9x.notails.R;
+
 /**
  * This Activity actually handles two stages of a launcher shortcut's life cycle.
  * <p/>

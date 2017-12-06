@@ -18,7 +18,7 @@ import android.support.v4n.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.VpnProfile;
 import de.blinkt.openvpn.core.ProfileManager;
 import de.blinkt.openvpn.fragments.Settings_Allowed_Apps;

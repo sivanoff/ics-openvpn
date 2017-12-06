@@ -9,7 +9,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import de.blinkt.openvpn.R;
+import ru.i9x.notails.R;
 import de.blinkt.openvpn.fragments.LogFragment;
 
 /**
