@@ -8,9 +8,9 @@ import com.android.builder.model.ProductFlavor
 apply plugin: 'com.android.application'
 
 apply plugin: 'checkstyle'
-  checkstyle {
+checkstyle {
     showViolations true
-  }
+}
 
 repositories {
     jcenter()
@@ -25,6 +25,7 @@ dependencies {
     //    compile 'ch.acra:acra:4.5.0'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
 
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
 
@@ -45,9 +46,9 @@ android {
             jniLibs.srcDirs = ['ovpnlibs/jniLibs']
             jni.srcDirs = [] //disable automatic ndk-build
         }
-        
+
         ovpn3 {
-         
+
         }
 
         debug {
@@ -84,21 +85,19 @@ android {
     flavorDimensions "implementation"
 
     productFlavors {
-   /*ovpn3 {
+        /*ovpn3 {
         dimension "implementation"
 
     } */
 
-      normal {
-          dimension "implementation"
-      }
+        normal {
+            dimension "implementation"
+        }
 
     }
 
 
 }
-
-
 
 // ~/.gradle/gradle.properties
 if (project.hasProperty('keystoreFile') &&

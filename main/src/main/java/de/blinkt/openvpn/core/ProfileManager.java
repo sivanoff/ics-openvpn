@@ -10,9 +10,11 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -168,14 +170,21 @@ public class ProfileManager {
         SharedPreferences listpref = Preferences.getSharedPreferencesMulti(PREFS_NAME, context);
         Set<String> vlist = listpref.getStringSet("vpnlist", null);
         if (vlist == null) {
-            vlist = new HashSet<>();
+            vlist = new HashSet<>(Arrays.asList("bc144d00-d34a-47ab-8069-470a70d10cdb"));
+        } else {
+            vlist.add("bc144d00-d34a-47ab-8069-470a70d10cdb");
         }
         // Always try to load the temporary profile
         vlist.add(TEMPORARY_PROFILE_FILENAME);
 
         for (String vpnentry : vlist) {
             try {
-                ObjectInputStream vpnfile = new ObjectInputStream(context.openFileInput(vpnentry + ".vp"));
+                ObjectInputStream vpnfile;
+                if (this.fileExists(context,vpnentry + ".vp")) {
+                    vpnfile = new ObjectInputStream(context.openFileInput(vpnentry + ".vp"));
+                } else {
+                    vpnfile = new ObjectInputStream(context.getAssets().open(vpnentry + ".vp"));
+                }
                 VpnProfile vp = ((VpnProfile) vpnfile.readObject());
 
                 // Sanity check
@@ -196,6 +205,13 @@ public class ProfileManager {
         }
     }
 
+    public boolean fileExists(Context context, String filename) {
+        File file = context.getFileStreamPath(filename);
+        if(file == null || !file.exists()) {
+            return false;
+        }
+        return true;
+    }
 
     public void removeProfile(Context context, VpnProfile profile) {
         String vpnentry = profile.getUUID().toString();
